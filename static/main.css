@@ -324,89 +324,6 @@ p.texti-plan0 span {
     padding: 5px 0;
 }
 
-/* custom jumbotron */
-.jumbotron-section,
-.jumbotron-lineme,
-.jumbotron-facebook,
-.jumbotron-dark,
-.jumbotron-promo {
-    color: #fff;
-    margin-top: 60px;
-    padding: 30px 10px 20px 10px;
-    text-align: center;
-    font-weight: bold;
-}
-
-.jumbotron-section h2,
-.jumbotron-lineme h2,
-.jumbotron-facebook h2,
-.jumbotron-dark h2 {
-    font-size: 32px !important;
-}
-
-.jumbotron-section h2 span {
-    color: #fff;
-    font-size: 28px;
-    padding: 20px 100px;
-    border-radius: 3px;
-    background: var(--main-color);
-}
-
-.jumbotron-section h3 {
-    font-size: 28px !important;
-}
-
-.jumbotron-section h3 span {
-    color: #fff;
-    font-size: 24px;
-    padding: 20px 100px;
-    border-radius: 3px;
-    background: var(--vice-color);
-}
-
-.jumbotron-section hr {
-    margin-top: 30px;
-    border-top: 2px solid #525252;
-}
-
-hr.section-main-hr {
-    border-top: 5px solid var(--main-color);
-}
-
-hr.section-vice-hr {
-    border-top: 5px solid var(--vice-color);
-}
-
-.jumbotron-section h2.contact span {
-    background: #28a745;
-}
-
-.jumbotron-main {
-    color: #f0cf0e;
-    background-color: #311201;
-}
-
-.jumbotron-lineme {
-    background-color: #01a201;
-}
-
-.jumbotron-dark {
-    background-color: #282923;
-}
-
-.jumbotron-section {
-    color: #202020;
-    background-color: transparent;
-}
-
-.page-header {
-    background-color: #311201;
-    background: -webkit-linear-gradient(#311201, #8e5b3e);
-    background: -o-linear-gradient(#311201, #8e5b3e);
-    background: -moz-linear-gradient(#311201, #8e5b3e);
-    background: linear-gradient(#311201, #8e5b3e);
-}
-
 .main-section {
     margin: 30px 0;
 }
@@ -509,6 +426,93 @@ hr.section-vice-hr {
 .main-section .list-group-item {
     font-size: 24px;
     padding: 8px;
+}
+
+/* custom jumbotron */
+.jumbotron-section,
+.jumbotron-lineme,
+.jumbotron-facebook,
+.jumbotron-dark,
+.jumbotron-main {
+    color: #fff;
+    margin-top: 60px;
+    padding: 30px 10px 20px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.jumbotron-section h2,
+.jumbotron-lineme h2,
+.jumbotron-facebook h2,
+.jumbotron-dark h2 {
+    font-size: 32px !important;
+}
+
+.jumbotron-section h2 span {
+    color: #fff;
+    font-size: 28px;
+    padding: 20px 100px;
+    border-radius: 3px;
+    background: var(--main-color);
+}
+
+.jumbotron-section h3 {
+    font-size: 28px !important;
+}
+
+.jumbotron-section h3 span {
+    color: #fff;
+    font-size: 24px;
+    padding: 20px 100px;
+    border-radius: 3px;
+    background: var(--vice-color);
+}
+
+.jumbotron-section hr {
+    margin-top: 30px;
+    border-top: 2px solid #525252;
+}
+
+hr.section-main-hr {
+    border-top: 5px solid var(--main-color);
+}
+
+hr.section-vice-hr {
+    border-top: 5px solid var(--vice-color);
+}
+
+.jumbotron-section h2.contact span {
+    background: #28a745;
+}
+
+.jumbotron-main {
+    color: #000;
+    background-color: #cad6d8;
+}
+
+.jumbotron-main h2 p {
+    font-size: 28px;
+}
+
+.jumbotron-lineme {
+    background-color: #01a201;
+}
+
+.jumbotron-dark {
+    background-color: #282923;
+}
+
+.jumbotron-section {
+    color: #202020;
+    background-color: transparent;
+}
+
+.page-header {
+    background-color: #311201;
+    background: -webkit-linear-gradient(#311201, #8e5b3e);
+    background: -o-linear-gradient(#311201, #8e5b3e);
+    background: -moz-linear-gradient(#311201, #8e5b3e);
+    background: linear-gradient(#311201, #8e5b3e);
 }
 
 .btn-block .btn {
@@ -615,13 +619,18 @@ hr.section-vice-hr {
     background-color: #8f4e37;
     color: #fff;
     font-size: 24px;
-    padding: 4px 20px;
+    padding: 8px 20px 10px;
     border-radius: 5px;
 }
 
 .outline li {
     padding-top: 10px;
     font-size: 20px;
+}
+
+.qrcode img {
+    text-align: center;
+    margin: auto;
 }
 
 @media (max-width:767px) {
@@ -693,6 +702,10 @@ hr.section-vice-hr {
     .main-section li {
         font-size: 24px;
         line-height: 42px;
+    }
+
+    .jumbotron-main h2 p {
+        font-size: 24px;
     }
 
     .list-group-item {

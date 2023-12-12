@@ -34,3 +34,12 @@ $(function() {
     });
 });
 
+// var qrcode = new QRCode("qrcode", {
+//     text: "https://shinewaycpa.com/",
+//     width: 96,
+//     height: 96,
+//     colorDark : "#000000",
+//     colorLight : "#ffffff",
+//     correctLevel : QRCode.CorrectLevel.H
+// });
+
