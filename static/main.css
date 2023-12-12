@@ -3,8 +3,13 @@
   --vice-color: #567e85;
 }
 
+@font-face {
+    font-family: 'EduKai';
+    src: url('edukai-4.0.ttf') format("truetype");
+}
+
 body, input, button, select, textarea {
-    font-family: "Helvetica Neue", Helvetica,Arial, "Microsoft JhengHei", "Microsoft YaHei", Meiryo, "Meiryo UI", sans-serif;
+    font-family: "Helvetica Neue", Helvetica,Arial, "EduKai", "Microsoft JhengHei", "Microsoft YaHei", Meiryo, "Meiryo UI", sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6 {
