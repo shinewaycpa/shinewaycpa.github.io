@@ -600,15 +600,17 @@ hr.section-vice-hr {
 
 .achievements-items .item .item-desc {
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .achievements-items .item:nth-child(odd) .item-desc {
     background-color: #326d9e;
+    border-bottom: 12px solid #90aec7;
 }
 
 .achievements-items .item:nth-child(even) .item-desc {
-    background-color: #217868;
+    background-color: #c06817;
+    border-bottom: 12px solid #daa16d;
 }
 
 .achievements-items .item h4 {
@@ -620,7 +622,9 @@ hr.section-vice-hr {
     color: #fff;
     font-size: 24px;
     padding: 8px 20px 10px;
-    border-radius: 5px;
+    border-radius: 0px;
+    border-left: 8px solid #cd8268;
+    border-right: 8px solid #cd8268;
 }
 
 .outline li {
