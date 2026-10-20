@@ -174,6 +174,23 @@ footer .copy-right {
     color: #ffce44 !important;
 }
 
+.navbar-main .nav-item .nav-helper {
+    color: #cd8268 !important;
+    margin: 0 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-main .nav-item .nav-helper:hover {
+    background-color: #8f4e37;
+    color: #fff !important;
+    border-radius: 3px;
+}
+
+.navbar-main .nav-item .nav-helper.btn {
+    color: #fff !important;
+}
+
 .navbar-main .nav-item.blank-item {
     color: transparent;
 }
@@ -659,6 +676,20 @@ hr.section-vice-hr {
 		color: #fff;
 	}
     .navbar-main .nav-item .nav-link.btn {
+        margin-top: 20px;
+    }
+
+    .navbar-main .nav-item .nav-helper {
+        text-align: center;
+        font-size: 24px;
+        color: #cd8268 !important;
+        margin: 6px 40px 0px 40px;
+    }
+
+    .navbar-main .nav-item .nav-helper:hover {
+        color: #fff;
+    }
+    .navbar-main .nav-item .nav-helper.btn {
         margin-top: 20px;
     }
 
